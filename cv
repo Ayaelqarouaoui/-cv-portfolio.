@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Data Science</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; color: #333; }
+        header { border-bottom: 2px solid #0077b5; padding-bottom: 20px; margin-bottom: 20px; }
+        h1 { color: #0077b5; }
+        .btn { display: inline-block; background: #0077b5; color: #fff; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        section { margin-bottom: 30px; }
+        .project { border-left: 5px solid #0077b5; padding-left: 15px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>[TON PRÉNOM ET NOM]</h1>
+        <p>Étudiant en Data Science & Business Intelligence</p>
+        <a href="CV_Nom_Prenom.pdf" class="btn" target="_blank">Télécharger mon CV (PDF)</a>
+    </header>
+
+    <section>
+        <h2>À propos</h2>
+        <p>Bienvenue sur mon portfolio. Je suis passionné par l'analyse de données et la BI.</p>
+        <p>Retrouvez mes travaux techniques ici : 
+            <a href="[LIEN_VERS_TON_PROFIL_KAGGLE]" target="_blank">Mon Profil Kaggle</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>Projets Récents</h2>
+        <div class="project">
+            <h3>Mini-Projet : [NOM DE TON PROJET]</h3>
+            <p>Thématique : [Marketing / Finance / RH / Ventes]</p>
+            <p>Description courte du projet et des outils utilisés (Python, Power BI, etc.).</p>
+            <a href="[LIEN_VERS_LE_REPO_GITHUB_DU_PROJET]" target="_blank">Voir le code sur GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - [TON NOM] - TP Construction de l'Identité Numérique</p>
+    </footer>
+
+</body>
+</html>
